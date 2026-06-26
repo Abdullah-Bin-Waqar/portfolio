@@ -7,7 +7,7 @@ export default function EducationPage() {
     <div className='space-y-10'>
       <div className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>Education</h1>
-        <p className='mt-4 text-slate-200 leading-7'>My academic journey in Computer Science provided a strong foundation in software development, programming, data structures, algorithms, database systems, and modern computing technologies. Through rigorous coursework and practical projects, I developed analytical thinking, problem-solving abilities, and a deep understanding of technology-driven solutions.
+        <p className='mt-4 text-slate-200 leading-7'>My academic journey in Computer Science provided a strong foundation in software development, programming, data structures, algorithms, database systems, and modern computing technologies. Through rigorous coursework and practical projects, I developed analytical thinking, problem-solving abilities, and a deep understanding of technology-driven solutions that support my work as a Computer Science Educator and AI professional.
 
           During my Bachelor of Science in Computer Science, I explored diverse areas of computing, with a growing focus on Artificial Intelligence, Machine Learning, Data Analysis, and Software Engineering. This educational experience not only strengthened my technical expertise but also inspired a passion for continuous learning, innovation, and the application of technology to solve real-world challenges.
 

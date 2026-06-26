@@ -46,7 +46,7 @@ export default function ProjectsPage() {
     <div className='space-y-10'>
       <div className='rounded-[2.5rem] bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>Projects</h1>
-        <p className='mt-4 text-slate-200'>Projects are where learning meets innovation. From Artificial Intelligence and Machine Learning applications to data-driven solutions and software development, my work demonstrates a commitment to solving real-world challenges through technology. Each project represents an opportunity to explore new technologies, improve my skills, and create meaningful impact through practical solutions.</p>
+        <p className='mt-4 text-slate-200'>Projects are where learning meets innovation. From Artificial Intelligence and Machine Learning applications to data-driven solutions and software development, my work demonstrates a commitment to solving real-world challenges through technology as a Tech Innovator and AI Solutions Architect. Each project represents an opportunity to explore new technologies, improve my skills, and create meaningful impact through practical solutions.</p>
       </div>
 
       <div className='grid gap-6 sm:grid-cols-2 xl:grid-cols-3'>

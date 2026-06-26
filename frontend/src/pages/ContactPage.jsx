@@ -57,7 +57,7 @@ export default function ContactPage() {
     <div className='space-y-10'>
       <div className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>Contact</h1>
-        <p className='mt-4 text-slate-200 leading-7'>Let's connect and create something impactful together. I welcome opportunities in Artificial Intelligence, software development, education, and technology driven innovation. Whether you have a project in mind, a collaboration opportunity, or a professional inquiry, I look forward to hearing from you and exploring how we can work together.</p>
+        <p className='mt-4 text-slate-200 leading-7'>Let's connect and create something impactful together. I welcome opportunities in Artificial Intelligence, software development, education, and technology driven innovation for AI Engineers, Data Scientists, and Computer Teachers. Whether you have a project in mind, a collaboration opportunity, or a professional inquiry, I look forward to hearing from you and exploring how we can work together.</p>
       </div>
       <div className='grid gap-6 lg:grid-cols-[1.2fr_0.8fr]'>
         <form onSubmit={handleSubmit} className='rounded-3xl bg-slate-50 p-6 sm:p-10 shadow-soft'>

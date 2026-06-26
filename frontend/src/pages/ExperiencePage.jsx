@@ -12,7 +12,7 @@ export default function ExperiencePage() {
     <div className='space-y-10'>
       <div className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>Experience</h1>
-        <p className='mt-4 text-slate-200'>My experience represents a journey of growth, learning, and professional development. By working across technology and education, I have built strong problem-solving abilities and a passion for creating meaningful impact.</p>
+        <p className='mt-4 text-slate-200'>My experience represents a journey of growth, learning, and professional development as an AI Engineer, Data Scientist, and Computer Teacher. By working across technology and education, I have built strong problem-solving abilities and a passion for creating meaningful impact as a Tech Innovator and AI Solutions Architect.</p>
       </div>
       <div className='relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-6 sm:p-8 shadow-glow'>
         <div className='absolute left-6 top-0 h-full w-1 bg-primary/20'></div>

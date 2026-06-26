@@ -69,7 +69,7 @@ export default function SkillsPage() {
     <div className='space-y-10'>
       <div className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>Skills</h1>
-        <p className='mt-4 text-slate-200'>I am passionate about acquiring new skills and exploring emerging technologies. Through continuous learning and hands-on experience, I strive to grow as a technology professional and create solutions that make a meaningful impact.</p>
+        <p className='mt-4 text-slate-200'>I am a Machine Learning Expert, Deep Learning Specialist, Data Analyst, and AI Solutions Architect passionate about acquiring new skills and exploring emerging technologies. Through continuous learning and hands-on experience, I strive to grow as a technology professional and create solutions that make a meaningful impact.</p>
       </div>
       <div className='grid gap-6 lg:grid-cols-2'>
         {categories.map((category) => (

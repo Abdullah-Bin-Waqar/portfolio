@@ -4,7 +4,7 @@ export default function AboutPage() {
       <section className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-6 sm:p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>About me</h1>
         <p className='mt-6 text-base leading-7 sm:text-lg sm:leading-8 text-slate-200'>
-          I am <b>Abdullah Bin Waqar</b>, an AI Engineer , Data Analyst and Computer Science Educator with a Bachelor of Science in Computer Science. My expertise spans Machine Learning, Deep Learning, Computer Vision, Data Analysis, Large Language Models (LLMs), and Retrieval Augmented Generation (RAG) systems.
+          I am <b>Abdullah Bin Waqar</b>, an AI Engineer, Data Scientist, Computer Teacher, Machine Learning Expert, Deep Learning Specialist, Data Analyst, and Artificial Intelligence Professional with a Bachelor of Science in Computer Science. My expertise spans Machine Learning, Deep Learning, Computer Vision, Data Analysis, Large Language Models (LLMs), and Retrieval Augmented Generation (RAG) systems.
           I have worked on real world AI projects, including AI-powered healthcare solutions, brain tumor detection systems, and data-driven applications. My experience as an AI Engineer, combined with over three years of teaching Computer Science and Mathematics, has strengthened my technical, communication, and leadership skills.
           I am passionate about building intelligent solutions, solving real-world problems through AI, and helping others understand technology through effective teaching and mentorship. I continuously strive to learn emerging technologies and create innovative solutions that make a meaningful impact.
         </p>
