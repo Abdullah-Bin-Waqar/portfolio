@@ -51,7 +51,7 @@ export default function HomePage() {
           <div className='space-y-8'>
             <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <p className='inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-semibold uppercase tracking-[0.24em] text-primary'>
-                AI Engineer • Data Scientist • Computer Teacher
+                AI Engineer • Data Scientist • Computer Science Educator
               </p>
             </motion.div>
             <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl'>
@@ -66,7 +66,7 @@ export default function HomePage() {
               />
             </motion.div>
             <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className='max-w-2xl text-lg leading-8 text-slate-600'>
-              Abdullah Bin Waqar is an AI Engineer, Data Scientist, and Computer Teacher specializing in Machine Learning, Deep Learning, Computer Vision, Data Analysis, and Generative AI. He builds AI-powered solutions and teaches computer science with a strong focus on practical innovation.
+              I am an AI Engineer, Data Scientist, and Computer Science Educator with expertise in Machine Learning, Deep Learning, Computer Vision, Data Analysis, and Generative AI. I develop intelligent AI powered solutions and am passionate about educating others in computer science through practical, hands on learning. My goal is to bridge the gap between theory and real world applications by building innovative technologies that solve meaningful problems. 
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9 }} className='flex flex-col gap-4 sm:flex-row sm:flex-wrap'>
               <a href='#contacts' className='btn-primary w-full sm:w-auto'>Hire me</a>
