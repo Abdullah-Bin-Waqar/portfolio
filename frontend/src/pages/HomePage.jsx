@@ -18,6 +18,8 @@ const stats = [
 
 export default function HomePage() {
   const location = useLocation();
+  const publicBase = import.meta.env.BASE_URL || '/';
+  const resumeUrl = encodeURI(`${publicBase}Abdullah bin waqar.pdf`);
 
   useEffect(() => {
     const routeMap = {
@@ -58,7 +60,7 @@ export default function HomePage() {
             <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className='relative flex items-center justify-center overflow-visible p-0 lg:hidden'>
               <div className='absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,102,255,0.12),_transparent_40%)]' />
               <img
-                src='/Abdullahbinwaqar.png'
+                src={`${publicBase}Abdullahbinwaqar.png`}
                 alt='Abdullah Bin Waqar'
                 className='relative w-full max-w-[280px] rounded-full object-cover shadow-[0_40px_80px_rgba(0,102,255,0.18)] sm:max-w-[320px]'
               />
@@ -68,7 +70,7 @@ export default function HomePage() {
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9 }} className='flex flex-col gap-4 sm:flex-row sm:flex-wrap'>
               <a href='#contacts' className='btn-primary w-full sm:w-auto'>Hire me</a>
-              <a href='/Abdullah bin waqar.pdf' target='_blank' rel='noreferrer' className='inline-flex w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-soft transition hover:border-primary/40 hover:text-primary sm:w-auto'>
+              <a href={resumeUrl} target='_blank' rel='noreferrer' className='inline-flex w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-soft transition hover:border-primary/40 hover:text-primary sm:w-auto'>
                 <FaDownload /> Download Resume
               </a>
             </motion.div>
@@ -84,7 +86,7 @@ export default function HomePage() {
           <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className='relative hidden items-center justify-center overflow-visible p-0 lg:flex'>
             <div className='absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,102,255,0.12),_transparent_40%)]' />
             <img
-              src='/Abdullahbinwaqar.png'
+              src={`${publicBase}Abdullahbinwaqar.png`}
               alt='Abdullah Bin Waqar'
               className='relative w-full max-w-[420px] rounded-full object-cover shadow-[0_40px_80px_rgba(0,102,255,0.18)]'
             />

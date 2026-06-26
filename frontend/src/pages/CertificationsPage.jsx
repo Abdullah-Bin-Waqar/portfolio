@@ -1,33 +1,35 @@
 import { useState } from 'react';
 
+const base = import.meta.env.BASE_URL || '/';
+
 const certifications = [
   {
     title: 'Microsoft AI Certification',
     issuer: 'Microsoft',
     date: '2025',
     details: 'Professional AI and machine learning fundamentals certification.',
-    image: '/Microsoft.jpg'
+    image: `${base}Microsoft.jpg`
   },
   {
     title: 'AI (ML/DL) Training',
     issuer: 'Corvit Lahore',
     date: '2025',
     details: 'Hands-on training in machine learning and deep learning techniques.',
-    image: '/Corvit.jpg'
+    image: `${base}Corvit.jpg`
   },
   {
     title: 'WorldPress Certification',
     issuer: 'Digi Skills',
     date: '2024',
     details: 'Completed WordPress development certification through Digi Skills.',
-    image: '/WORDPRESS-1.png'
+    image: `${base}WORDPRESS-1.png`
   },
   {
     title: 'Programming Essentials in C++',
     issuer: 'Cisco Networking Academy',
     date: '2023',
     details: 'Foundational programming certification in C++ development.',
-    image: '/Cicso.jpg'
+    image: `${base}Cicso.jpg`
   }
 ];
 

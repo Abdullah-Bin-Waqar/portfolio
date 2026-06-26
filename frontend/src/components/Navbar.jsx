@@ -10,7 +10,7 @@ const links = [
   { id: 'projects', label: 'Projects' },
   { id: 'certifications', label: 'Certifications' },
   { id: 'education', label: 'Education' },
-  { id: 'contacts', label: 'Contacts' }
+  { id: 'contacts', label: 'Contact' }
 ];
 
 export default function Navbar() {

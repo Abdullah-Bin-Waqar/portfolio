@@ -1,7 +1,9 @@
+const base = import.meta.env.BASE_URL || '/';
+
 const projects = [
   {
     title: 'AI-Powered Hospital Management System',
-    image: '/HMS.jpg',
+    image: `${base}HMS.jpg`,
     description: 'MERN hospital platform with AI chatbot.',
     technologies: ['MERN', 'AI', 'MongoDB'],
     github: 'https://drive.google.com/file/d/1jmAwJtEJ4obcivsdRsPtszK_DnOJp6Uv/view?usp=sharing',
@@ -9,7 +11,7 @@ const projects = [
   },
   {
     title: 'Brain Tumor Detection System',
-    image: '/brain-tumor.png',
+    image: `${base}brain-tumor.png`,
     description: 'MRI tumor detection with CNN and OpenCV.',
     technologies: ['Python', 'CNN', 'OpenCV'],
     github: 'https://drive.google.com/file/d/1cyrHHiAiVVcFlIqbye76oL-hy_56-rwu/view?usp=sharing',
@@ -17,7 +19,7 @@ const projects = [
   },
   {
     title: 'Data Analysis with Pandas & NumPy',
-    image: '/data-analysis.jpg',
+    image: `${base}data-analysis.jpg`,
     description: 'Cleaned and visualized datasets.',
     technologies: ['Python', 'Pandas', 'NumPy'],
     // github: '#',
@@ -25,7 +27,7 @@ const projects = [
   },
   {
     title: 'Tic-Tac-Toe Game',
-    image: '/tic-tac-toe.png',
+    image: `${base}tic-tac-toe.png`,
     description: 'React multiplayer game.',
     technologies: ['JavaScript', 'React'],
     github: 'https://github.com/AbdullahProject/Tic-Tac-Toe',
@@ -33,7 +35,7 @@ const projects = [
   },
   {
     title: 'Calculator App',
-    image: '/calculator.jpg',
+    image: `${base}calculator.jpg`,
     description: 'C++ calculator with validation.',
     technologies: ['C++'],
     github: 'https://github.com/AbdullahProject/Calculater',
