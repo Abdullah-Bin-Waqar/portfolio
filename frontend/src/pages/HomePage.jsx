@@ -51,7 +51,7 @@ export default function HomePage() {
           <div className='space-y-8'>
             <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <p className='inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-semibold uppercase tracking-[0.24em] text-primary'>
-                AI Engineer • Data Scientist • Computer Teacher
+                AI Engineer • Data Scientist • Computer Science Educator
               </p>
             </motion.div>
             <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl'>
