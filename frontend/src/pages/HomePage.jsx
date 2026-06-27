@@ -66,7 +66,7 @@ export default function HomePage() {
               />
             </motion.div>
             <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className='max-w-2xl text-lg leading-8 text-slate-600'>
-              Abdullah Bin Waqar is an AI Engineer, Data Scientist, and Computer Teacher specializing in Machine Learning, Deep Learning, Computer Vision, Data Analysis, and Generative AI. He builds AI-powered solutions and teaches computer science with a strong focus on practical innovation.
+              Passionate about building intelligent AI solutions that solve real world challenges through Machine Learning, Computer Vision, Data Analytics, and Generative AI. Dedicated to transforming complex ideas into practical applications while empowering students and professionals through quality computer science education.
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9 }} className='flex flex-col gap-4 sm:flex-row sm:flex-wrap'>
               <a href='#contacts' className='btn-primary w-full sm:w-auto'>Hire me</a>
@@ -95,7 +95,7 @@ export default function HomePage() {
         <div className='mt-16 grid gap-6 lg:grid-cols-[1fr_0.8fr]'>
           <div className='rounded-3xl bg-white p-8 sm:p-10 shadow-soft'>
             <h2 className='text-2xl font-semibold text-slate-950'>AI Engineer and Data Analytics Professional</h2>
-            <p className='mt-4 text-slate-600'>I am an AI Engineer and Data Analyst focused on building innovative AI-powered solutions that solve real world problems. With expertise in Machine Learning, Deep Learning, Computer Vision, and modern software development, I combine technical excellence with practical implementation. I am also passionate about education, mentoring students in computer science and empowering them through technology.</p>
+            <p className='mt-4 text-slate-600'>Bridging artificial intelligence, data science, and software engineering to develop scalable, impactful solutions. With hands-on experience in Machine Learning, Deep Learning, Computer Vision, and intelligent automation, I focus on turning data into actionable insights while delivering reliable and innovative AI applications. Alongside industry work, I actively mentor aspiring developers and computer science students through practical, project based learning.</p>
           </div>
           <div className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-8 sm:p-10 text-white shadow-glow'>
             <h3 className='text-xl font-semibold'>How I add value</h3>

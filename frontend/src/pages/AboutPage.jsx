@@ -4,15 +4,17 @@ export default function AboutPage() {
       <section className='rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-6 sm:p-10 text-white shadow-glow'>
         <h1 className='text-3xl font-semibold text-white'>About me</h1>
         <p className='mt-6 text-base leading-7 sm:text-lg sm:leading-8 text-slate-200'>
-          I am <b>Abdullah Bin Waqar</b>, an AI Engineer, Data Scientist, Computer Teacher, Machine Learning Expert, Deep Learning Specialist, Data Analyst, and Artificial Intelligence Professional with a Bachelor of Science in Computer Science. My expertise spans Machine Learning, Deep Learning, Computer Vision, Data Analysis, Large Language Models (LLMs), and Retrieval Augmented Generation (RAG) systems.
-          I have worked on real world AI projects, including AI-powered healthcare solutions, brain tumor detection systems, and data-driven applications. My experience as an AI Engineer, combined with over three years of teaching Computer Science and Mathematics, has strengthened my technical, communication, and leadership skills.
-          I am passionate about building intelligent solutions, solving real-world problems through AI, and helping others understand technology through effective teaching and mentorship. I continuously strive to learn emerging technologies and create innovative solutions that make a meaningful impact.
+          With a strong academic foundation in Computer Science and practical experience in Artificial Intelligence, my work focuses on designing intelligent systems that solve meaningful real-world problems. My expertise covers Machine Learning, Deep Learning, Computer Vision, Data Analysis, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG).
+
+          Throughout my journey, I have developed AI-powered healthcare applications, brain tumor detection systems, and data-driven software solutions that combine innovation with practical usability. Beyond software development, more than three years of teaching Computer Science and Mathematics have strengthened my communication, leadership, and problem-solving abilities.
+
+          Driven by curiosity and continuous learning, I strive to build technology that creates measurable impact while sharing knowledge that inspires the next generation of technology professionals.
         </p>
       </section>
       <section className='grid gap-8 lg:grid-cols-2'>
         <div className='space-y-6 rounded-3xl bg-gradient-to-br from-slate-950 to-primary p-10 text-white shadow-glow'>
           <h2 className='text-2xl font-semibold'>Professional Biography</h2>
-          <p className='leading-8 text-slate-200'>I am an AI Engineer , Data Analyst and Computer Science Educator with a Bachelor's degree in Computer Science. I am passionate about AI, software development, and technology driven innovation. My goal is to build intelligent solutions, solve real-world challenges, and contribute to the growth of technology through continuous learning and knowledge sharing.</p>
+          <p className='leading-8 text-slate-200'>Abdullah Bin Waqar is an AI Engineer, Data Analyst, and Computer Science Educator committed to advancing technology through innovation, research, and education. Holding a Bachelor's degree in Computer Science, he specializes in developing intelligent software solutions powered by Artificial Intelligence, Machine Learning, and Data Analytics. His professional interests extend beyond software development to mentoring future technology professionals, promoting practical learning, and exploring emerging AI technologies that address complex real-world challenges. With a balance of technical expertise and educational experience, he aims to contribute to the future of intelligent computing and digital transformation.</p>
           <div className='space-y-4 text-sm text-slate-300'>
             <p><span className='font-semibold text-white'>Mission:</span> Create AI systems that empower intelligent decision making and help organizations grow with data-driven innovation.</p>
             <p><span className='font-semibold text-white'>Core Strengths:</span> Machine Learning, Computer Vision, Data Analytics, Full-stack development, Technical teaching.</p>
