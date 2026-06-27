@@ -1,6 +1,10 @@
 {
   "name": "abdullah-portfolio-frontend",
-  "homepage": "https://Abdullah-Bin-Waqar.github.io/portfolio",
+  "homepage": "https://github.com/Abdullah-Bin-Waqar/portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdullah-Bin-Waqar/portfolio.git"
+  },
   "private": true,
   "version": "1.0.0",
   "type": "module",

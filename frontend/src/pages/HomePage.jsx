@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FaDownload } from 'react-icons/fa';
 import AboutPage from './AboutPage';
 import SkillsPage from './SkillsPage';
@@ -33,17 +33,8 @@ export default function HomePage() {
       contact: 'contacts'
     };
 
-    // Get section ID from route or hash
-    let sectionId;
-    
-    // Check for hash first (for anchor clicks like #contacts)
-    if (window.location.hash) {
-      sectionId = window.location.hash.slice(1);
-    } else {
-      const key = location.pathname.replace(/^\/+|\/+$/g, '');
-      sectionId = routeMap[key] || 'home';
-    }
-
+    const key = location.pathname.replace(/^\/+|\/+$/g, '');
+    const sectionId = routeMap[key] || 'home';
     const target = document.getElementById(sectionId);
 
     if (target) {
@@ -51,7 +42,7 @@ export default function HomePage() {
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: 'smooth' });
     }
-  }, [location.pathname, location.hash]);
+  }, [location.pathname]);
 
   return (
     <div className='space-y-16'>
@@ -78,7 +69,7 @@ export default function HomePage() {
               Passionate about building intelligent AI solutions that solve real world challenges through Machine Learning, Computer Vision, Data Analytics, and Generative AI. Dedicated to transforming complex ideas into practical applications while empowering students and professionals through quality computer science education.
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9 }} className='flex flex-col gap-4 sm:flex-row sm:flex-wrap'>
-              <a href='#contacts' className='btn-primary w-full sm:w-auto'>Hire me</a>
+              <Link to='/contact' className='btn-primary w-full sm:w-auto'>Hire me</Link>
               <a href={resumeUrl} target='_blank' rel='noreferrer' className='inline-flex w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-soft transition hover:border-primary/40 hover:text-primary sm:w-auto'>
                 <FaDownload /> Download Resume
               </a>

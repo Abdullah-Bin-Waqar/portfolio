@@ -118,7 +118,7 @@ export default function ContactPage() {
               </div>
               <div className='flex items-center gap-3'>
                 <FaGithub className='text-primary' />
-                <a href='https://github.com/AbdullahProject' target='_blank' rel='noreferrer' className='flex items-center gap-3 text-slate-600 hover:text-primary'>GitHub</a>
+                <a href='https://github.com/Abdullah-Bin-Waqar/portfolio' target='_blank' rel='noreferrer' className='flex items-center gap-3 text-slate-600 hover:text-primary'>GitHub</a>
               </div>
               <div className='flex items-center gap-3'>
                 <FaFacebook className='text-primary' />

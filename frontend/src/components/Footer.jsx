@@ -34,7 +34,7 @@ export default function Footer() {
               <a href='https://linkedin.com/in/abdullah-bin-waqar-bbab90275' target='_blank' rel='noreferrer' className='flex items-center gap-3 hover:text-primary'>
                 <FaLinkedin /> LinkedIn
               </a>
-              <a href='https://github.com/AbdullahProject' target='_blank' rel='noreferrer' className='flex items-center gap-3 hover:text-primary'>
+              <a href='https://github.com/Abdullah-Bin-Waqar/portfolio' target='_blank' rel='noreferrer' className='flex items-center gap-3 hover:text-primary'>
                 <FaGithub /> GitHub
               </a>
             </div>
