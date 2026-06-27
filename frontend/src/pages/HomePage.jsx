@@ -33,8 +33,17 @@ export default function HomePage() {
       contact: 'contacts'
     };
 
-    const key = location.pathname.replace(/^\/+|\/+$/g, '');
-    const sectionId = routeMap[key] || 'home';
+    // Get section ID from route or hash
+    let sectionId;
+    
+    // Check for hash first (for anchor clicks like #contacts)
+    if (window.location.hash) {
+      sectionId = window.location.hash.slice(1);
+    } else {
+      const key = location.pathname.replace(/^\/+|\/+$/g, '');
+      sectionId = routeMap[key] || 'home';
+    }
+
     const target = document.getElementById(sectionId);
 
     if (target) {
@@ -42,7 +51,7 @@ export default function HomePage() {
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: 'smooth' });
     }
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 
   return (
     <div className='space-y-16'>
